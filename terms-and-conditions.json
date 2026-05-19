@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://registry.lab.gaia-x.eu/v2/context/2411"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-EY#terms-and-conditions-vc",
+  "type": [
+    "VerifiableCredential",
+    "gx:Issuer"
+  ],
+  "issuer": "did:web:lms-upatras.github.io:Gaia-X-LMS",
+  "issuanceDate": "2026-05-18T13:12:58Z",
+  "validFrom": "2026-05-18T13:12:58Z",
+  "credentialStatus": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-EY#status-list",
+    "type": "BitstringStatusList2023"
+  },
+  "credentialSubject": {
+    "id": "did:web:lms-upatras.github.io:Gaia-X-EY#issuer",
+    "type": "gx:Issuer",
+    "gx:gaiaxTermsAndConditions": "4bd7554097444c960292b4726c2efa1373485e8a5565d94d41195214c5e0ceb3"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-05-18T13:12:58Z",
+    "verificationMethod": "did:web:lms-upatras.github.io:Gaia-X-LMS#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il0sImtpZCI6ImRpZDp3ZWI6bG1zLXVwYXRyYXMuZ2l0aHViLmlvOkdhaWEtWC1MTVMja2V5LTEifQ..D-pfr34v34Yd6bBLMUM2wXut3yykZ5xy6mOPPMyJuTqMmBzktRQFkRwHbPAsh_S7xlGpGM1QNe0ztUquCojI1A5aRaSvtKf2azR0ijqJ9I7wY5I6EXiYe23_f7NqWDwRNKvkI0NDoRgWD_JnJIwbmAqV-ozmI1tahp2xEtj1GX0tibMJ1gJA2X2LZ1HvF9fGj1P2YrLNpsQq9sxtDS1LpLmjEHwwz3JbDEiI0BRntyZXdhTyGfh3K0m2oSz_fLlFw_OqxRvqoZThC6-r_Jc00CGJIV5h2IBvaC-J64glX5F46DANGT2ifXb8ORiQICB8kjYQ2NCg2i4pqyKAbdJy4fkAvm2cKD-zbU8rpCrUZVsiQmMeXPpio5Fr2HzGkuYSupgrFYPXMjb_CP498tLFWLuk31DHHSwz1qT4f247ScFZT-d7zLW88WSIa7zpVoLhsQTiYulwGBoe4r6xjrWxVI2OxHe81JgfOmFNrwsB1EyF55yZVRzaqhIt1vM7ZTEN_cV_WHbIM8yBI5whMh6So2HKem2Lg7UoqXQG5TANzCiPrw7rytK0BCk4EHDKX-KatywvH8ny1rXeOVB_84NDvZApFyMvxIHDO_BWpSYCfcKI8JE6NXsFxqGQWST8gAzcLOu34BkawQzXK6cBUPOumFEcTUi_KzfRZp0KwNZfjYQ"
+  }
+}

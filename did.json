@@ -1,0 +1,50 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/v2/context/2411"
+  ],
+  "id": "did:web:lms-upatras.github.io:Gaia-X-EY",
+  "issuanceDate": "2026-05-18T13:12:54Z",
+  "validFrom": "2026-05-18T13:12:54Z",
+  "verificationMethod": [
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-EY#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:lms-upatras.github.io:Gaia-X-EY",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "nbEszMIexJYme0ENIMTLZO9nschk8yf-RmMrpVIbrkToLZcS_u-CbCnd5sp2JESZnUXxTOgTyA7AeRhjq9JDbKA2Y5YRjlbRerdGDCSfBKVa9bj_c61LtFFPUXSpxlvr9ps09oAp-Zum7fWDLfyhvT4OPOoQKVXnRkonQzQY79hP8OyUnNmtTkJM70f4K4wVp8M5z57hXNSAdTHaPtwanokMQy30ML4xkgtpuIgXR7026-Mf1DWZrBv5FlQJxznAmW54CkdXKZ_VEWgleBxwE0T6uSLqIB77L1maJVqB5nr2cN_1eOuknTk5xCzJBe14gZJ4xZsM8C_BCHSdskQzIcgYo4KyhXEnSatitIbfFsw_8dizRXRKLFdFQtmALyN7COf2Wsz2UHxnXV1VNe_jG2cpu_itYMXn9NOa4uTkIc6zG9mUttXdAj5mETJjxfRf8V1VpE486o36Awep9wO5nd4H8zOA-DcltlWHUxgnCueuiVezA6Sl85rFCAKz-eUBAtOc98Eua6-U1kb6U4bEbxcGF24BW0aBfDAQ04S4oHkdUDmlER6MRctW_ZRychKxXAHTrFwMbtesrKaMWVEsoeuaHeLDuADwAjQtUUuzLAOEr4hadPc14FzYtSkmNk_TSN1XD3qa_xp8gWWOMpx-86So_33x2oH5W0ORBXkQuak",
+        "e": "AQAB",
+        "alg": "PS256",
+        "x5c": [
+          "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"
+        ],
+        "x5u": "https://lms-upatras.github.io/Gaia-X-EY/x509Certificate.pem"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:lms-upatras.github.io:Gaia-X-EY#key-1"
+  ],
+  "authentication": [
+    "did:web:lms-upatras.github.io:Gaia-X-EY#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-EY#discovery",
+      "type": "GaiaXSelfDescription",
+      "serviceEndpoint": "https://lms-upatras.github.io/Gaia-X-EY/self-description.json"
+    },
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-EY#credential-service",
+      "type": "CredentialService",
+      "serviceEndpoint": "http://150.140.148.214:13131/api/credentials/v1/participants/ZGlkOndlYjpsbXMtdXBhdHJhcy5naXRodWIuaW86R2FpYS1YLUVZ"
+    },
+    {
+      "id": "did:web:lms-upatras.github.io:Gaia-X-EY#protocol-endpoint",
+      "type": "ConnectorProtocolEndpoint",
+      "serviceEndpoint": "https://eyconnector.gaiax-accelerator.gr/connector/protocol/2025-1"
+    }
+  ]
+}
